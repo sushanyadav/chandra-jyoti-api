@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_socials_socials",
+  "info": {
+    "name": "Socials",
+    "icon": "globe",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Facebook": {
+      "type": "string"
+    },
+    "Twitter": {
+      "type": "string"
+    }
+  }
+}

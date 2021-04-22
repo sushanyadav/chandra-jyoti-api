@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guardians_words",
+  "info": {
+    "name": "Guardians words",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Description": {
+      "type": "text"
+    }
+  }
+}

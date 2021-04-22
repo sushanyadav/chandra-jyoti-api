@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/carousels",
-      "handler": "carousel.find",
+      "path": "/guardians-words",
+      "handler": "guardians-words.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/carousels/count",
-      "handler": "carousel.count",
+      "path": "/guardians-words/count",
+      "handler": "guardians-words.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/carousels/:id",
-      "handler": "carousel.findOne",
+      "path": "/guardians-words/:id",
+      "handler": "guardians-words.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/carousels",
-      "handler": "carousel.create",
+      "path": "/guardians-words",
+      "handler": "guardians-words.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/carousels/:id",
-      "handler": "carousel.update",
+      "path": "/guardians-words/:id",
+      "handler": "guardians-words.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/carousels/:id",
-      "handler": "carousel.delete",
+      "path": "/guardians-words/:id",
+      "handler": "guardians-words.delete",
       "config": {
         "policies": []
       }

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/achivements",
+      "handler": "achivements.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/achivements/count",
+      "handler": "achivements.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/achivements/:id",
+      "handler": "achivements.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/achivements",
+      "handler": "achivements.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/achivements/:id",
+      "handler": "achivements.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/achivements/:id",
+      "handler": "achivements.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

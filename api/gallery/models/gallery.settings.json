@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "carousels",
+  "collectionName": "galleries",
   "info": {
-    "name": "Carousel",
+    "name": "Gallery",
     "description": ""
   },
   "options": {
@@ -11,7 +11,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "slider": {
+    "Name": {
+      "type": "string"
+    },
+    "Images": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -21,6 +24,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Description": {
+      "type": "text"
     }
   }
 }

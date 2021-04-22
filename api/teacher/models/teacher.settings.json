@@ -11,25 +11,31 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "name": {
+    "Name": {
       "type": "string"
     },
-    "description": {
+    "Description": {
       "type": "text"
     },
-    "is_active": {
-      "type": "boolean"
-    },
-    "image": {
+    "Image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
+    },
+    "Faculty": {
+      "type": "string"
+    },
+    "Twitter": {
+      "type": "string"
+    },
+    "Facebook": {
+      "type": "string"
     }
   }
 }

@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/photo-galleries",
-      "handler": "photo-gallery.find",
+      "path": "/managements-words",
+      "handler": "managements-words.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/photo-galleries/count",
-      "handler": "photo-gallery.count",
+      "path": "/managements-words/count",
+      "handler": "managements-words.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/photo-galleries/:id",
-      "handler": "photo-gallery.findOne",
+      "path": "/managements-words/:id",
+      "handler": "managements-words.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/photo-galleries",
-      "handler": "photo-gallery.create",
+      "path": "/managements-words",
+      "handler": "managements-words.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/photo-galleries/:id",
-      "handler": "photo-gallery.update",
+      "path": "/managements-words/:id",
+      "handler": "managements-words.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/photo-galleries/:id",
-      "handler": "photo-gallery.delete",
+      "path": "/managements-words/:id",
+      "handler": "managements-words.delete",
       "config": {
         "policies": []
       }

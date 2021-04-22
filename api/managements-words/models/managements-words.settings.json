@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "managements_words",
+  "info": {
+    "name": "Managements words"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Description": {
+      "type": "text"
+    }
+  }
+}

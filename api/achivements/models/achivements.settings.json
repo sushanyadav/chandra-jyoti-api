@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "achivements",
+  "info": {
+    "name": "Achivements"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "year_founded": {
+      "type": "integer"
+    },
+    "certified_teachers": {
+      "type": "integer"
+    },
+    "graduated_students": {
+      "type": "integer"
+    },
+    "after_school_program": {
+      "type": "integer"
+    }
+  }
+}
