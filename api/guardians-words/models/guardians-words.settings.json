@@ -13,6 +13,23 @@
   "attributes": {
     "Description": {
       "type": "text"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Relation": {
+      "type": "string"
     }
   }
 }
