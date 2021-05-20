@@ -27,9 +27,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "Relation": {
-      "type": "string"
     }
   }
 }
